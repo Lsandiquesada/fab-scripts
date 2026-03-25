@@ -32,7 +32,8 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 ### 4. Registrar la llave en GitHub
 
-GitHub > Settings > SSH and GPG keys > New SSH key
+GitHub > Settings > SSH and GPG keys > New SSH key. 
+
 Se debe copiar el contenido de la llave y guardar.
 
 ### 5. Clonar el repositorio
