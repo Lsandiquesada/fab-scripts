@@ -41,3 +41,10 @@ Se debe copiar el contenido de la llave y guardar.
 ```bash
 git clone git@github.com:usuario/nombre-del-repo.git
 ```
+## Ejemplos de Uso
+
+Actualmente lo utilizo para:
+
+* Desarrollo de firmware de un T-beam basado en ESP32 con comunicación LORA y conexión APRS.
+* Modelo de simulaciones de comunicaciones electricas por medio de modulación FSK.
+* Control de versiones de un proyecto de VLSI
