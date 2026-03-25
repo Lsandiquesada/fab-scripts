@@ -4,7 +4,7 @@ Este repositorio tiene como objetivo principal explicar el flujo de trabajo bás
 
 ## Descripción
 
-Un **repositorio** es un espacio (carpeta) donde Git realiza un seguimiento de todos los cambios realizados en los archivos de un proyecto. Esto permite:
+Un **repositorio** es un espacio donde Git realiza un seguimiento de todos los cambios realizados en los archivos de un proyecto. Esto permite:
 * Mantener un historial de versiones.
 * Revertir cambios si algo sale mal.
 * Colaborar con otras personas sin sobrescribir el trabajo ajeno.
@@ -24,16 +24,19 @@ Antes de crear commits, debes identificarte. Abre Git Bash y ejecuta los siguien
 ```bash
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu@email.com"
-
+```
 ### 3. Generar llave SSH
+
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
-
+```
 ### 4. Registrar la llave en GitHub
 
 GitHub > Settings > SSH and GPG keys > New SSH key
 Se debe copiar el contenido de la llave y guardar.
 
 ### 5. Clonar el repositorio
+
 ```bash
 git clone git@github.com:usuario/nombre-del-repo.git
+```
